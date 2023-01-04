@@ -1,13 +1,8 @@
 fun main() {
-    val bigger:Int = isGreater(12,56)
-
-    println(bigger)
-
-    val result = uniFunc()
-
-    println(result)
+    val bel = House()
+    println(bel.name())
 }
 
-fun isGreater(a: Int, b: Int): Int = if (a > b) a else b
-
-fun uniFunc()=Unit
+class House constructor(){
+    fun name() = "Entering the house.."
+}
