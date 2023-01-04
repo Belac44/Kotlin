@@ -1,13 +1,13 @@
 fun main() {
-    val number = -440
+    val bigger:Int = isGreater(12,56)
 
-    println(number in 0..100)
-    println('t' in "kotlin")
-    println('K' in "kotlin")
+    println(bigger)
 
-    println(isDigit('5'))
-    println(isNotDigit('a'))
+    val result = uniFunc()
+
+    println(result)
 }
 
-fun isDigit(ch: Char) = ch in '0'..'9'
-fun isNotDigit(ch: Char) = ch !in '0'..'9'
+fun isGreater(a: Int, b: Int): Int = if (a > b) a else b
+
+fun uniFunc()=Unit
