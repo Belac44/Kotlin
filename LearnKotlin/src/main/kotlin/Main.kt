@@ -1,7 +1,13 @@
-fun main(args: Array<String>) {
-    print("What is your name: ")
+fun main(args: Array<String>)
+{
 
-    var name = readln()
+displayCharacters("BOSIRE CALEB IS MY NAME")
+}
 
-    print("Hello $name")
+fun displayCharacters(str:String){
+    var i:Int = 0
+    while (i < str.length){
+        println(str[i])
+        i++
+    }
 }
