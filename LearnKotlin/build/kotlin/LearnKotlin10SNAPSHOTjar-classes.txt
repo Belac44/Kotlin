@@ -1,1 +1,1 @@
-C:\Users\hp\Desktop\Github\Kotlin Projects\LearnKotlin\build\classes\kotlin\main\MainKt.class
+C:\Users\hp\Desktop\Github\Kotlin Projects\LearnKotlin\build\classes\kotlin\main\MainKt.class;C:\Users\hp\Desktop\Github\Kotlin Projects\LearnKotlin\build\classes\kotlin\main\Person.class
